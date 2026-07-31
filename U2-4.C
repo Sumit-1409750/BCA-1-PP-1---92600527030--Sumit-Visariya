@@ -3,7 +3,7 @@
 #include<stdio.h>
 #include<conio.h>
 
-void main();
+void main()
 {
 	int a,r;
 
@@ -12,8 +12,9 @@ void main();
 	scanf("%d", &r);
 
 	a= 3.14*r*r;
-	printf(" Area of circle is : 						e
+	printf("\n Area of circle is :%d", a);
 
+	getch();
 
 
 
