@@ -7,24 +7,29 @@ capital convert into small else convert into capital */
 void main()
 
 {
-	 char ch;
+	   char ch;
 
-	clrscr();
-	
-    printf("Enter a character: ");
+    clrscr();
+    
+    printf(" Enter a character: ");
     scanf("%c", &ch);
 
     if (ch >= 'A' && ch <= 'Z')
     {
-        ch = ch + 32;
+	   printf("\n Uppercase letter" );
     }
-    else if (ch >= 'a' && ch <= 'z')
+    else
     {
-        ch = ch - 32;
+	if(ch >= 'a' && ch <= 'z' )
+	{
+	    printf("\n Lowercase letter" );
+	}
+	else //( ch >= 48 && ch <= 57 )
+	{
+	    printf("\n Input is not valid charater ");
+	}
+
     }
 
-    printf("Converted character: %c", ch);
-
-	getch();
 	
 }
