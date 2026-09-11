@@ -9,6 +9,8 @@ void main()
 {
 	 char ch;
 
+	clrscr();
+	
     printf("Enter a character: ");
     scanf("%c", &ch);
 
@@ -23,4 +25,6 @@ void main()
 
     printf("Converted character: %c", ch);
 
+	getch();
+	
 }
