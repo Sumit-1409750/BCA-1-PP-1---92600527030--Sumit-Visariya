@@ -1,4 +1,4 @@
-\\Write a program that Print 100 99 98...... 90
+//Write a program that Print 100 99 98...... 90
 
 #include<stdio.h>
 #include<conio.h>
