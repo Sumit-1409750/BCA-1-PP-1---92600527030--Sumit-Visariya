@@ -1,4 +1,4 @@
-//Write a program that Print 200 198 196 .... 180
+// Write a program that Print 200 198 196 .... 180
 
 #include<stdio.h>
 #include<conio.h>
